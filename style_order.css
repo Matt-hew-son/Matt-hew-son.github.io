@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* 
+	New Perspectives on HTML5 and CSS3, 8th Edition
+	E-Commerce Website Project		
+		
+	Author: Matthew Robertson
+	Date:
+*/
+
+/* HTML, header, and nav styles */
+html {
+	min-width: 1342px;
+	max-width: 2187px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*background-color: #fff2cc;*/
+	background: linear-gradient(rgb(255,228,178) , rgb(255,201,102), rgb(207,156,62), rgb(255,201,102), rgb(255,228,178));
+}
+
+.header {
+	background-color: #7c501a;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.header h1 {
+	background: linear-gradient(to top, rgb(255,228,178), rgb(255,201,102), rgb(255,165,0), rgb(204,132,0), rgb(153,99,0));
+	color: transparent;
+	background-clip: text;
+	font-size: 75px;
+	margin: 0;
+	font-weight: bold;
+}
+
+#nav {
+	background-color: rgb(153,99,0);
+}
+
+#nav ul {
+	display: flex;
+}
+
+#nav ul li {
+	list-style: none;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #fff2cc;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+#nav ul li a:hover {
+	background: linear-gradient(to top, rgb(255,228,178), rgb(255,201,102), rgb(255,165,0), rgb(204,132,0), rgb(153,99,0));
+	color: transparent;
+	background-clip: text;
+}
+
+/* ======================================== */
+
+fieldset#custInfo h1 {
+	color: #7c501a;
+}
+
+fieldset#orderDetails h2 {
+	color: #7c501a;
+}
+
+
+
+
+
+/* Order details */
+textarea {
+	margin-top: 10px;
+	height: 150px;
+	width: 18%;
+}
+
+
+
+
+
+
+
+
+
+/* ======================================== */
+/* footer style */
+
+footer {
+	background-color: #7c501a;		
+	border-radius: 25px;
+}
+
+.contact {
+	color: #fff2cc;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 50px;
+}
+
+.contact a {
+	color: #fff2cc;
+	text-decoration: none;
+	transition: 0.5s ease-in-out;
+}
+
+.contact a:hover {
+	background: linear-gradient(to top, rgb(255,228,178), rgb(255,201,102), rgb(255,165,0), rgb(204,132,0), rgb(153,99,0));
+	color: transparent;
+	background-clip: text;
+}

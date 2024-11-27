@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+	<!-- 
+		New Perspectives on HTML5 and CSS3, 8th Edition
+		E-Commerce Website Project		
+		
+		Author: Matthew Robertson
+		Date:
+
+	-->	
+	
+	<!-- <p>Check out each day special by viewing our calendar</P>
+	<div id="calendar"></div> -->
+	
+	<meta charset="utf-8" />
+	<title>Confectionery Cookies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style_order.css" rel="stylesheet" />
+	
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>Confectionery Creations</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="cookies.html">Cookies</a></li>
+					<li><a href="cakes.html">Cakes</a></li>
+					<li><a href="pies.html">Pies</a></li>
+					<li><a href="order.html">Order</a></li>
+				</ul>
+			</div>
+		</div>	
+	</header>
+	<article>
+		<form id="order">
+			<fieldset id="custInfo">
+				<h1>Customer Information</h1>
+			
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="custName" required>
+				<br><br>
+
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="custPhone" required>
+				<br><br>
+
+				<label for="email">Email:</label>   
+				<input type="email" id="email" name="custEmail" required>
+				<br><br>   
+			</fieldset>
+			<fieldset id="orderDetails">
+				<h2>Order Details</h2>
+
+				<label for="items">Items:</label><br>
+				<textarea id="items" name="custItems" placeholder="Item description" required></textarea>
+				<br><br>
+
+				<label for="pickupDate">Pickup Date:</label>
+				<input type="date" id="pickupDate" name="pickupDate" required>
+				<br><br>
+
+				<label for="pickupTime">Pickup Time:</label>
+				<input type="time" id="pickupTime" name="pickupTime" required>
+				<br><br>
+
+				<label for="specialInstructions">Special Instructions:</label><br>
+				<textarea id="specialInstructions" name="specialInstructions" rows="3" cols="30"></textarea>
+				<br><br>
+				<input type="submit" value="Submit Order">
+			</fieldset>
+		</form>		
+    </article>
+<footer>
+	<div class="foot">
+		<div id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="cookies.html">Cookies</a></li>
+					<li><a href="cake.html">Cakes</a></li>
+					<li><a href="pies.html">Pies</a></li>
+					<li><a href="order.html">Order</a></li>
+				</ul>
+			</div>
+		<div class="contact">
+			<p>
+				<strong>Phone:</strong><a href="tel:+17045552188"> (704) 555-2188</a></p>
+				<strong>Email:</strong><a href="mailto:confectionerycreations@example.com"> ConfectioneryCreations@example.com</a>
+			</p>
+		</div>
+	</div>
+</footer>
+</html>
